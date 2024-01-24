@@ -14,14 +14,27 @@ app.engine('handlebars', exphbs({defaultLayout : 'principal'}));
 app.set('view engine', 'handlebars');
 
 
+
+
+
 // Rotas
 app.get('/', function (req,res){
-    res.render('inicio');
+
+    let pessoas = [
+        {"nome":"João", "idade":29},
+        {"nome":"Maria", "idade":28},
+        {"nome":"Marcelo", "idade":25}
+    
+    ]
+
+
+    res.render('inicio', {usandoNode:false, dados:pessoas});
 });
 
 app.get('/sobre', function (req,res){
     res.render('sobre');
 });
+
 
 // Servidor
 app.listen(8080);
