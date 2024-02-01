@@ -1,19 +1,19 @@
 {
-    "cursos": [
-        {
-        "nome":"Node.Js",
-        "valor":900,
-        "Id":1
-        },
-        {
-            "nome":"Java Spring",
-            "valor":1500,
-            "id":2
-    
-        }
-
-
-
-
-    ]
+  "cursos": [
+    {
+      "id": "1",
+      "nome": "Node.Js",
+      "valor": 900
+    },
+    {
+      "nome": "ReactJs",
+      "valor": 1800,
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "nome": "Angular",
+      "valor": 200
+    }
+  ]
 }
