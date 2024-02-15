@@ -1,0 +1,23 @@
+{
+    "clientes": [
+        {
+            "Nome": "João",
+            "idade":29,
+            "id": 1
+        }, 
+        {
+            "Nome": "Marcos",
+            "idade":26,
+            "id": 2
+        },
+
+        {
+            "Nome": "Miguel",
+            "idade":25,
+            "id": 3
+        }
+        
+      
+      ]
+
+}
